@@ -1,0 +1,31 @@
+#+title: C language - my exercises notebook
+
+
+* Introduction
+
+This repository contains a collections of exercises written in C.
+
+The problems come from two main sources;
+- A pdf of introductory and intermediate C exercises
+- The book *C Dissected*
+
+* Hello world
+** Twice the Sum
+
+Here is part of a program that begins by having the user input three integers:
+
+#+begin_src C
+  #include <stdio.h>
+  int main(void)
+  {
+    int a, b, c, sum;
+    printf("Input three integers: ");
+  }
+#+end_src
+
+Complete the program so that when the user executes it and types in 2, 3, and 7, this is what appears on the screen:
+
+#+begin_src sh
+  Input three integers: 2 3 7
+  Twice the sum of your integers plus 7 is 31 --- bye!
+#+end_src
