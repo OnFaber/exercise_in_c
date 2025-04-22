@@ -16,6 +16,9 @@ int main(void) {
     sum += num_arr[i];
   }
   result = twice(sum) + num_arr[SIZE - 1];
-  printf("Twice the sum of your integers plus %d is %d --- bye!\n", num_arr[SIZE - 1], result);
+  printf("Twice the sum of your integers plus %d is %d --- bye!\n",
+         num_arr[SIZE - 1],
+         result);
+  
   return 0;
 }
